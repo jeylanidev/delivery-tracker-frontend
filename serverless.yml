@@ -1,0 +1,10 @@
+
+cazooDeliveryTracker:
+  component: "@sls-next/serverless-component@1.18.0"
+  inputs:
+    description: "A concept for a cazoo delivery tracker"
+      name:
+        defaultLambda: cazoo-delivery-tracker-site
+        apiLambda: cazoo-delivery-tracker-api
+      AccelerateConfiguration:
+        AccelerationStatus: Enabled
